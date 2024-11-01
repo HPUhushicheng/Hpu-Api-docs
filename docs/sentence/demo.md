@@ -3,13 +3,13 @@
 ## 本地部署
 
 - 获取课程数据的API接口
-
+```sh
 http://localhost:3000/get-course-data?rawPassword=yourPassword&user_code=yourUserCode
-
+```
 - 获取课程列表
-
+```sh
 http://localhost:3000/get-grade-data?rawPassword=yourPassword&user_code=yourUserCode
-
+```
 > rawPassword：您的密码，用于获取数据，请勿泄露。
 >
 > user_code：您的学号，用于获取数据，请勿泄露。
@@ -17,13 +17,13 @@ http://localhost:3000/get-grade-data?rawPassword=yourPassword&user_code=yourUser
 ## 腾讯云函数部署
 
 - 获取课程数据的API接口
-
+```sh
 https://1316493739-h6hbs085gz.ap-nanjing.tencentscf.com/get-course-data?rawPassword=yourPassword&user_code=yourUserCode
-
+```
 - 获取课程列表
-
+```sh
 https://1316493739-h6hbs085gz.ap-nanjing.tencentscf.com/get-grade-data?rawPassword=yourPassword&user_code=yourUserCode
-
+```
 > rawPassword：您的密码，用于获取数据，请勿泄露。
 >
 > user_code：您的学号，用于获取数据，请勿泄露。
