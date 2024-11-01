@@ -122,7 +122,7 @@ defineConfig({
     ],
     editLink: {
       pattern:
-        'https://github.com/hitokoto-osc/hitokoto-developer-docs/edit/next/docs/:path',
+        'https://github.com/HPUhushicheng/Hpu-Api-docs/edit',
       text: '本页内容有误？修改本页...'
     }
     // lastUpdated: "最后更新",
